@@ -7,9 +7,9 @@ Library for generating Klingon XKCD Style Passwords.
 
 ## Basic Usage
 
-    $generator = new ambielecki\LoremIpsum\Generator();
-    $paragraphs = $generator->getParagraphs(5);
-    echo implode('<p>', $paragraphs);
+    $newpassword = new KlingonPassword\KlingonPass();
+    $thispassword = $newpassword->getPassword(3);
+    echo ($thispassword);
 
 ## Installation
 

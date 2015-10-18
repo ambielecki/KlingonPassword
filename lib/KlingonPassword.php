@@ -11,6 +11,7 @@
 namespace ambielecki\KlingonPassword;
 
 class KlingonPass{
+    //pass in the number of words you would like
     public function getPassword($words){
         $password = "";
         $wordarray = ['a', 'ampaS', 'aqtu', 'avwl', 'baH', 'baQ', 'batlh', 'beH', 'benal', 'betleHbey', 'bij', 'bireS', 'blQaHeH', 'boDegh', 'bomwl', 'boqHa', 'bov', 'buSHa', 'chab',
